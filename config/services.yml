@@ -1,0 +1,13 @@
+services:
+    theriddler.b3p_birthday_announce.birthday_announce:
+        class: theriddler\b3p_birthday_announce\birthday_announce
+        arguments:
+            - @config
+            - @dbal.conn
+            - @template
+            - @user
+            - @ext.manager
+            - %core.root_path%
+            - %core.php_ext%
+        tags:
+            - { name: board3.portal.module }

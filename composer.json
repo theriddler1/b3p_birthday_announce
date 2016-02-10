@@ -1,0 +1,24 @@
+{
+	"name": "theriddler/b3p_birthday_announce",
+	"type": "phpbb-extension",
+	"description": "Adds a birthday announcement module for Board3 Portal",
+	"homepage": "http://www.phpbbservice.nl",
+	"version": "1.0.1",
+	"time": "2016-02-09",
+	"license": "GPL-2.0",
+	"authors": [{
+			"name": "Theriddler",
+			"email": "theriddler1@live.nl",
+			"homepage": "http://www.phpbbservice.nl",
+			"role": "Lead Developer"
+	}],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "B3P Birthday announcement Module",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.5,<3.2.*@dev"
+		}
+	}
+}

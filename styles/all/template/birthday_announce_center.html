@@ -1,0 +1,26 @@
+<!-- IF BIRTHDAY_ANNOUNCEMENT -->
+{$C_BLOCK_H_L}{$TITLE}{$C_BLOCK_H_R}
+<div class="panel bg1 portal-no-margin">
+	<div class="inner">
+		<div class="postbody portal-module-postbody">
+			<div class="content portal-module-content">
+			<dd></dd>
+				<dt style="text-align:center;">{BIRTHDAY_ANNOUNCEMENT_IMG}</dt>
+			</dl>
+			<div class="birthday_announce_text">
+			<p class="birthday_announce_header_title"><b>{L_CONGRATULATIONS}</b></p><br />
+			<p class="birthday_announce_message">{BIRTHDAY_ANNOUNCEMENT_MESSAGE}</p>
+			</div>
+			<ul class="birthday_announce">
+			<!-- BEGIN bdannounce -->
+			<li class="bg1">
+			{bdannounce.BIRTHDAY_ANNOUNCEMENT_AVATAR}<br />{bdannounce.BIRTHDAY_ANNOUNCEMENT_USERNAME}
+			</li>
+			<!-- END bdannounce -->
+			</ul>
+			</div>
+		</div>
+	</div>
+</div>
+{$C_BLOCK_F_L}{$C_BLOCK_F_R}
+<!-- ENDIF -->
