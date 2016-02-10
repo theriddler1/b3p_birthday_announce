@@ -1,5 +1,9 @@
 # phpBB 3.1 Board 3 Portal Birthday Announcement Extension
 
+## Requirements
+
+Board 3 portal 2.1 or newer
+
 ## Install
 
 1. Download the latest release.
@@ -7,6 +11,9 @@
 4. Copy the `theriddler` folder to `root/ext/`
 5. Navigate in the ACP to `Customise -> Manage extensions`.
 6. Look for `B3P Birthday announcement Module` under the Disabled Extensions list, and click its `Enable` link.
+7. Navigate in the ACP to `Extensions -> portal modules`.
+8. In any of the center columns click the `Add button`.
+9. Select `Birthday Announcement` from the dropdown list.
 
 ## Uninstall
 
